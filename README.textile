@@ -19,6 +19,7 @@ h2. Installation (brew for OS X, for Ubuntu replace brew with apt-get)
     gem install sinatra pow haml unicorn
     mkdir tmp
     mkdir log
+    mkdir public/images/gifs
     unicorn config.ru
   </code>
 </pre>
