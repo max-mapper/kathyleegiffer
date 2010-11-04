@@ -2,6 +2,8 @@ h1. Kathy Lee Giffer
 
 HTML5 drag and drop animated GIF creation! Uses Gifsicle and Ruby to create the GIFs on the server
 
+!http://imgur.com/2knGw.gif!
+
 h2. Requirements
   * rubygems: sinatra, pow, haml and their dependencies
   * @convert@ (installed with the ImageMagick package)
