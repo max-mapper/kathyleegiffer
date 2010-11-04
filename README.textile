@@ -10,13 +10,15 @@ h2. Requirements
   * @gifsicle@ ("http://www.lcdf.org/gifsicle/":http://www.lcdf.org/gifsicle/)
   * modern web browser with the FileReader API (tested against recent firefox, chrome, and safari builds)
 
-h2. Installation (OS X)
+h2. Installation (brew for OS X, for Ubuntu replace brew with apt-get)
 
 <pre>
   <code>
     brew install imagemagick
     brew install gifsicle
     gem install sinatra pow haml unicorn
+    mkdir tmp
+    mkdir log
     unicorn config.ru
   </code>
 </pre>
